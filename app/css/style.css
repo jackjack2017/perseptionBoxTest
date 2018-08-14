@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background: #F5F5F5;
+  padding: 100px 0; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px; }
+  header div {
+    width: 60px;
+    height: 60px;
+    background: #CCCCCC;
+    border-radius: 50px;
+    margin-right: 10px; }
+  header h1 {
+    font-weight: 900;
+    color: #195C95;
+    line-height: 20px; }
+    header h1 span {
+      font-size: 16px; }
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all .3s; }
+  form:hover {
+    box-shadow: 0 0 5px 2px #dddddd; }
+  form label {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+    display: block; }
+    form label span {
+      text-align: center;
+      color: red;
+      margin: 0;
+      display: none; }
+  form input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #EFEFEF;
+    border-radius: 2px;
+    margin-top: 5px;
+    outline: none;
+    padding: 0 20px;
+    color: #666666;
+    margin-bottom: 5px; }
+  form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px; }
+    form div button {
+      background: #EC008D;
+      min-width: 100px;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 11px;
+      letter-spacing: 1px;
+      line-height: 35px;
+      padding: 0 20px;
+      border: none;
+      border-radius: 50px;
+      outline: none;
+      cursor: pointer;
+      transition: opacity .3s; }
+      form div button:hover {
+        opacity: .8; }
+    form div a {
+      color: #A2A2A2;
+      transition: color .3s; }
+      form div a:hover {
+        color: #666666; }
+
+footer p {
+  color: #A2A2A2;
+  text-align: center;
+  padding-top: 30px; }
+  footer p a {
+    color: #A2A2A2;
+    transition: color .3s; }
+    footer p a:hover {
+      color: #666666; }
